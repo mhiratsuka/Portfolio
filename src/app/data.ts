@@ -1,0 +1,402 @@
+export type Lang = "en" | "ja";
+
+export const skills = [
+  "TypeScript", "JavaScript",  "HTML/CSS",
+  "React", "Next.js", "Vite", "Python", "C++", "PostgreSQL", "Computer Vision", "HCI",
+  "Deep Learning", "Git", "Docker","Figma"
+];
+
+export const formId = "xlgqzvvd";
+
+export const projects = [
+    {
+      slug: "relay",
+      name: "Lorem Project 01",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2025",
+    },
+    {
+      slug: "kanji-flow",
+      name: "Lorem Project 02",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2025",
+    },
+    {
+      slug: "orbit-cli",
+      name: "Lorem Project 03",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2024",
+    },
+    {
+      slug: "patchwork",
+      name: "Lorem Project 04",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2024",
+    },
+    {
+      slug: "logdive",
+      name: "Lorem Project 05",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2024",
+    },
+    {
+      slug: "fennel",
+      name: "Lorem Project 06",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2023",
+    },
+    {
+      slug: "shimmer",
+      name: "Lorem Project 07",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2023",
+    },
+    {
+      slug: "nightwatch",
+      name: "Lorem Project 08",
+      tech: "Lorem · Ipsum · Dolor",
+      description: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      detail: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      github: "#",
+      link: "#",
+      year: "2022",
+    },
+  ];
+
+  export const posts = [
+    {
+      slug: "zero-downtime-deployments",
+      date: { en: "Jun 12, 2026", ja: "2026年6月12日" },
+      title: {
+        en: "Lorem Ipsum Post 01",
+        ja: "Lorem Ipsum Post 01",
+      },
+      excerpt: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      tag: { en: "Lorem", ja: "Lorem" },
+      body: {
+        en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        ja: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      },
+    },
+    {
+      slug: "rewriting-cli-in-rust",
+      date: { en: "May 3, 2026", ja: "2026年5月3日" },
+      title: {
+        en: "Lorem Ipsum Post 02",
+        ja: "Lorem Ipsum Post 02",
+      },
+      excerpt: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      tag: { en: "Lorem", ja: "Lorem" },
+      body: {
+        en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        ja: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      },
+    },
+    {
+      slug: "reading-code",
+      date: { en: "Mar 18, 2026", ja: "2026年3月18日" },
+      title: {
+        en: "Lorem Ipsum Post 03",
+        ja: "Lorem Ipsum Post 03",
+      },
+      excerpt: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      tag: { en: "Lorem", ja: "Lorem" },
+      body: {
+        en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        ja: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      },
+    },
+    {
+      slug: "postgres-jsonb",
+      date: { en: "Jan 29, 2026", ja: "2026年1月29日" },
+      title: {
+        en: "Lorem Ipsum Post 04",
+        ja: "Lorem Ipsum Post 04",
+      },
+      excerpt: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      tag: { en: "Lorem", ja: "Lorem" },
+      body: {
+        en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        ja: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      },
+    },
+    {
+      slug: "go-concurrency-patterns",
+      date: { en: "Nov 14, 2025", ja: "2025年11月14日" },
+      title: {
+        en: "Lorem Ipsum Post 05",
+        ja: "Lorem Ipsum Post 05",
+      },
+      excerpt: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      tag: { en: "Lorem", ja: "Lorem" },
+      body: {
+        en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        ja: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      },
+    },
+    {
+      slug: "burnout",
+      date: { en: "Sep 2, 2025", ja: "2025年9月2日" },
+      title: {
+        en: "Lorem Ipsum Post 06",
+        ja: "Lorem Ipsum Post 06",
+      },
+      excerpt: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      tag: { en: "Lorem", ja: "Lorem" },
+      body: {
+        en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        ja: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      },
+    },
+    {
+      slug: "sqlite-in-production",
+      date: { en: "Jul 18, 2025", ja: "2025年7月18日" },
+      title: {
+        en: "Lorem Ipsum Post 07",
+        ja: "Lorem Ipsum Post 07",
+      },
+      excerpt: {
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      tag: { en: "Lorem", ja: "Lorem" },
+      body: {
+        en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        ja: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      },
+    },
+  ];
+
+export const ui = {
+  en: {
+    nav: { about: "About", projects: "Projects", blog: "Blog", contact: "Contact" },
+    back: "← Back",
+    viewProject: "View project",
+    sourceCode: "Source code",
+    allProjects: "All Projects",
+    allBlogs: "All Posts",
+    loadMore: "Load more",
+    noMore: "You've reached the end",
+    readMore: "Read post",
+    contactTitle: "Contact",
+    contactDesc:
+      "I'm happy to connect and explore opportunities in any area of software development. Please feel free to reach out!",
+    github: "https://github.com/mhiratsuka",
+    linkedin: "https://www.linkedin.com/in/mhiratsuka",
+    form: {
+      name: "Name",
+      email: "Email",
+      message: "Message",
+      send: "Send",
+      sending: "Sending...",
+      success: "Thank you! Your message has been sent. I'll get back to you within 2-3 business days.",
+      placeholders: { name: "Your name", email: "your@email.com", message: "Tell me about your project, opportunity, or idea..." },
+    },
+    footer: { built: "Michika Hiratsuka"},
+    hero: {
+      greeting: "Hello, I'm",
+      name: "Michika Hiratsuka",
+      role: "Software Developer",
+      description:
+        "Experienced in building web applications using technologies including TypeScript and React, and currently studying computer science at UBC with particular interests in HCI and computer vision.",
+      cta: "View my work",
+      contact: "Get in touch",
+    },
+    about: {
+      title: "About",
+      bio1: "I'm a software developer pursuing a second degree in Computer Science at UBC, with an academic background in psychology and education. I have professional experience in frontend and software development in Japan and Canada.",
+      bio2: "I returned to university to build a strong foundation in computer science. I am especially interested in computer vision and human-computer interaction (HCI), as well as their applications in agriculture. Drawing on my interdisciplinary background, I am interested in building thoughtful, human-centred technologies and applying computing to real-world problems.",
+      skills: "Skills & Interests",
+    },
+  },
+  ja: {
+    nav: { about: "自己紹介", projects: "プロジェクト", blog: "ブログ", contact: "お問い合わせ" },
+    back: "← 戻る",
+    viewProject: "プロジェクトを見る",
+    sourceCode: "ソースコード",
+    allProjects: "プロジェクト一覧",
+    allBlogs: "全記事",
+    loadMore: "もっと見る",
+    noMore: "最後まで読みました",
+    readMore: "記事を読む",
+    contactTitle: "お問い合わせ",
+    contactDesc:
+      "ソフトウェア開発の幅広い分野に関心があり、新しいことにも積極的に挑戦したいと考えています。ぜひお気軽にご連絡ください!",
+    github: "https://github.com/mhiratsuka",
+    form: {
+      name: "お名前",
+      email: "メールアドレス",
+      message: "メッセージ",
+      send: "送信",
+      sending: "送信中...",
+      success: "お問い合わせありがとうございます。内容を確認のうえ、2〜3営業日以内に返信いたします。",
+      placeholders: { name: "お名前", email: "your@email.com", message: "ご相談やお問い合わせ内容をご記入ください。" },
+    },
+    footer: { built: "Michika Hiratsuka"},
+    hero: {
+      greeting: "はじめまして、",
+      name: "Michika Hiratsuka",
+      role: "Software Developer",
+      description:
+        "TypeScriptやReactなどを用いたWebアプリケーション開発の経験があり、現在はUBCでコンピュータサイエンスを学びながら、特にHCIとコンピュータビジョンに関心を持っています。",
+      cta: "実績を見る",
+      contact: "お問い合わせ",
+    },
+    about: {
+      title: "自己紹介",
+      bio1: "ソフトウェア開発者としての実務経験を持ち、現在はUBCでコンピュータサイエンスを学んでいます。以前は心理学と教育学を学び、日本とカナダでソフトウェア開発に携わってきました。",
+      bio2: "コンピュータサイエンスの基礎を体系的に身につけるため、大学での学びを再開しました。特にコンピュータビジョンとHCI（ヒューマン・コンピュータ・インタラクション）、そしてそれらの農業分野への応用に関心があります。これまでの分野横断的な経験を生かし、人を中心に考えた技術の開発や、実社会の課題解決に取り組みたいと考えています。",
+      skills: "スキル・関心分野",
+    },
+  },
+};
