@@ -51,6 +51,7 @@ export default function Home() {
             <div className="md:col-span-3 space-y-5">
               <p className="text-muted-foreground leading-relaxed">{t.about.bio1}</p>
               <p className="text-muted-foreground leading-relaxed">{t.about.bio2}</p>
+              <p className="text-muted-foreground leading-relaxed">{t.about.bio3}</p>
             </div>
             <div className="md:col-span-2">
               <p className="font-mono text-[10px] tracking-[0.2em] uppercase text-accent-foreground mb-5">
@@ -77,7 +78,7 @@ export default function Home() {
           <SectionHeader num="02" title={t.contactTitle}/>
           <div className="mt-14 grid md:grid-cols-2 gap-16">
             <div>
-              <p className="text-muted-foreground leading-relaxed mb-10 text-sm">{t.contactDesc}</p>
+              <p className="text-muted-foreground leading-relaxed mb-10 text-base">{t.contactDesc}</p>
               {/* <div className="flex flex-col gap-5"> */}
               <div className="flex gap-5">
 

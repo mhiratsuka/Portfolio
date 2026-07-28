@@ -348,14 +348,18 @@ export const ui = {
       name: "Michika Hiratsuka",
       role: "Software Developer",
       description:
-        "Experienced in building web applications using technologies including TypeScript and React, and currently studying computer science at UBC with particular interests in HCI and computer vision.",
+        "Experienced in building web applications using technologies including TypeScript and React",
       cta: "View my work",
       contact: "Get in touch",
     },
     about: {
       title: "About",
-      bio1: "I'm a software developer pursuing a second degree in Computer Science at UBC, with an academic background in psychology and education. I have professional experience in frontend and software development in Japan and Canada.",
-      bio2: "I returned to university to build a strong foundation in computer science. I am especially interested in computer vision and human-computer interaction (HCI), as well as their applications in agriculture. Drawing on my interdisciplinary background, I am interested in building thoughtful, human-centred technologies and applying computing to real-world problems.",
+      bio1:
+      "I'm a software developer pursuing a second degree in Computer Science at UBC, with an academic background in psychology and education. I have professional experience in software development in Japan and Canada.",
+      bio2:
+      "In 2024, I returned to university to study the foundations of computer science in a structured way. I am particularly interested in computer vision and human-computer interaction (HCI). ",
+      bio3:
+      "Having cared for a variety of small animals and enjoyed gardening since childhood, and continuing to grow vegetables at home, I am also interested in how technology can be applied in agriculture and environmental fields. Drawing on my interdisciplinary background, I hope to develop thoughtful, human-centred technologies and contribute to solving real-world problems.",
       skills: "Skills & Interests",
     },
   },
@@ -384,18 +388,19 @@ export const ui = {
     },
     footer: { built: "Michika Hiratsuka"},
     hero: {
-      greeting: "はじめまして、",
+      greeting: "こんにちは",
       name: "Michika Hiratsuka",
       role: "Software Developer",
       description:
-        "TypeScriptやReactなどを用いたWebアプリケーション開発の経験があり、現在はUBCでコンピュータサイエンスを学びながら、特にHCIとコンピュータビジョンに関心を持っています。",
+        "TypeScriptやReactをはじめとする技術を用いたWebアプリケーション開発の経験があります。",
       cta: "実績を見る",
       contact: "お問い合わせ",
     },
     about: {
       title: "自己紹介",
-      bio1: "ソフトウェア開発者としての実務経験を持ち、現在はUBCでコンピュータサイエンスを学んでいます。以前は心理学と教育学を学び、日本とカナダでソフトウェア開発に携わってきました。",
-      bio2: "コンピュータサイエンスの基礎を体系的に身につけるため、大学での学びを再開しました。特にコンピュータビジョンとHCI（ヒューマン・コンピュータ・インタラクション）、そしてそれらの農業分野への応用に関心があります。これまでの分野横断的な経験を生かし、人を中心に考えた技術の開発や、実社会の課題解決に取り組みたいと考えています。",
+      bio1: "ソフトウェア開発者としての実務経験を持ち、現在はバンクーバーのブリティッシュコロンビア大学でComputer Scienceを学んでいます。心理学と教育学の学位を取得後、日本とカナダでソフトウェア開発に携わってきました。",
+      bio2: "2024年に、コンピュータサイエンスを基礎から体系的に学ぶため、大学での学びを再開しました。特にコンピュータビジョンとHCI(ヒューマン・コンピュータ・インタラクション)に関心があります。",
+      bio3: "幼い頃から小動物の飼育や園芸に親しみ、現在も家庭菜園を楽しんでいることから、農業や環境分野におけるテクノロジーの活用にも関心を持っています。これまでの分野横断的な経験を生かし、人を中心に考えた技術の開発と、実社会の課題解決に取り組みたいと考えています。",
       skills: "スキル・関心分野",
     },
   },
