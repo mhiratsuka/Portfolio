@@ -10,132 +10,45 @@ export const formId = "xlgqzvvd";
 
 export const projects = [
     {
-      slug: "relay",
-      name: "Lorem Project 01",
-      tech: "Lorem · Ipsum · Dolor",
+      slug: "cpsc310-project",
+      name: "CPSC 310 Project",
+      tech: "TypeScript · React · Express · REST API",
       description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        en: "A full-stack course project developed for CPSC 310 at UBC.",
+        ja: "UBCのCPSC 310で開発したフルスタックのコースプロジェクトです。",
       },
       detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        en: "",
+        ja: "",
       },
-      github: "#",
-      link: "#",
-      year: "2025",
+
+      // Repository exists, but cannot be publicly shared
+      github: "",
+      privateRepo: true,
+
+      link: "https://cpsc310-project.vercel.app/",
+      year: "2026",
     },
+
     {
-      slug: "kanji-flow",
-      name: "Lorem Project 02",
-      tech: "Lorem · Ipsum · Dolor",
+      slug: "student-academic-organizer",
+      name: "Student Academic Organizer",
+      tech: "Figma · HCI · User-Centered Design · Project Manager",
       description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        en: "An academic planning tool designed as part of CPSC 344 Human-Computer Interaction.",
+        ja: "CPSC 344 Human-Computer Interactionで設計した、学習計画を支援するAcademic Organizerです。",
       },
       detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        en: "",
+        ja: "",
       },
-      github: "#",
-      link: "#",
-      year: "2025",
-    },
-    {
-      slug: "orbit-cli",
-      name: "Lorem Project 03",
-      tech: "Lorem · Ipsum · Dolor",
-      description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      github: "#",
-      link: "#",
-      year: "2024",
-    },
-    {
-      slug: "patchwork",
-      name: "Lorem Project 04",
-      tech: "Lorem · Ipsum · Dolor",
-      description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      github: "#",
-      link: "#",
-      year: "2024",
-    },
-    {
-      slug: "logdive",
-      name: "Lorem Project 05",
-      tech: "Lorem · Ipsum · Dolor",
-      description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      github: "#",
-      link: "#",
-      year: "2024",
-    },
-    {
-      slug: "fennel",
-      name: "Lorem Project 06",
-      tech: "Lorem · Ipsum · Dolor",
-      description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      github: "#",
-      link: "#",
-      year: "2023",
-    },
-    {
-      slug: "shimmer",
-      name: "Lorem Project 07",
-      tech: "Lorem · Ipsum · Dolor",
-      description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      github: "#",
-      link: "#",
-      year: "2023",
-    },
-    {
-      slug: "nightwatch",
-      name: "Lorem Project 08",
-      tech: "Lorem · Ipsum · Dolor",
-      description: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      detail: {
-        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        ja: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      github: "#",
-      link: "#",
-      year: "2022",
+
+      // No GitHub repository for this project
+      github: "",
+      privateRepo: false,
+
+      link: "https://www.figma.com/make/2fGFycdskjCHW5Q2wB24bu/Academic-Organiser-Demo?code-node-id=0-6&p=f&t=GlZJtC271HZ92oZU-0&fullscreen=1",
+      year: "2026",
     },
   ];
 
@@ -323,7 +236,7 @@ export const ui = {
     back: "← Back",
     viewProject: "View project",
     sourceCode: "Source code",
-    allProjects: "All Projects",
+    allProjects: "Projects",
     allBlogs: "All Posts",
     loadMore: "Load more",
     noMore: "You've reached the end",
