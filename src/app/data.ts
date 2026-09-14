@@ -9,47 +9,34 @@ export const skills = [
 export const formId = "xlgqzvvd";
 
 export const projects = [
-    {
-      slug: "cpsc310-project",
-      name: "CPSC 310 Project",
-      tech: "TypeScript · React · Express · REST API",
+		{
+			slug: "student-academic-organizer",
+			name: "Student-Friendly Academic Organizer",
       description: {
-        en: "A full-stack course project developed for CPSC 310 at UBC.",
-        ja: "UBCのCPSC 310で開発したフルスタックのコースプロジェクトです。",
+        en: "Student-Friendly Academic Organizer is an interactive prototype designed to help UBC students manage coursework, deadlines, and academic progress across multiple courses without feeling overwhelmed. Developed as part of CPSC 344: Human-Computer Interaction, the project addressed the challenge of academic information being spread across tools such as Canvas and Google Calendar. Our team brainstormed potential solutions and conducted user research with UBC students to better understand how they organize coursework and where existing tools fall short. Based on these findings, we explored features related to task prioritization, workload visibility, and progress tracking, and iteratively refined the interface through usability evaluation and prototyping in Figma. I also served as project manager, coordinating the team’s schedule and design process.",
+        ja: "Student-Friendly Academic Organizerは、UBCの学生が複数の授業にまたがる課題や締切、学習の進捗を無理なく整理・管理できるようにすることを目的としたプロトタイプです。CPSC 344 (Human-Computer Interaction)のチームプロジェクトとして、CanvasやGoogle Calendarなど複数のツールに分散している学習情報を、より分かりやすく把握できるようにすることを課題として取り組みました。チームでは、UBCの学生を対象にユーザー調査を行い、普段どのように課題や予定を管理しているのか、既存のツールにどのような使いにくさがあるのかを分析しました。その結果をもとに、タスクの優先順位付け、課題量の見える化、進捗管理などの機能を検討し、ユーザビリティ評価を行いながらFigma上でデザインを繰り返し改善しました。また、私はプロジェクトマネージャーとして、チームのスケジュール調整や進行管理も担当しました。",
       },
-      detail: {
-        en: "",
-        ja: "",
-      },
-
-      // Repository exists, but cannot be publicly shared
-      github: "",
-      privateRepo: true,
-
-      link: "https://cpsc310-project.vercel.app/",
-      year: "2026",
-    },
-
+			type: "Academic Project",
+			tech: "Figma, HCI, User-Centered Design, Project Manager",
+			image: "/projects/student-academic-organizer.png",
+			github: undefined,
+			privateRepo: false,
+			link: "https://www.figma.com/make/2fGFycdskjCHW5Q2wB24bu/Academic-Organiser-Demo?code-node-id=0-6&p=f&t=9ZUvGwuJb6K07PbB-0&fullscreen=1",
+		},
     {
-      slug: "student-academic-organizer",
-      name: "Student Academic Organizer",
-      tech: "Figma · HCI · User-Centered Design · Project Manager",
-      description: {
-        en: "An academic planning tool designed as part of CPSC 344 Human-Computer Interaction.",
-        ja: "CPSC 344 Human-Computer Interactionで設計した、学習計画を支援するAcademic Organizerです。",
+			slug: "cpsc310-project",
+			name: "InsightUBC Explorer",
+			description: {
+        en: "InsightUBC Explorer is a full-stack web application developed as part of CPSC 310: Introduction to Software Engineering at UBC. It allows users to process, explore, and query large UBC course datasets through an interactive web interface. The application includes a RESTful API for dataset ingestion and validation, as well as query functionality for filtering and sorting course data. Users can upload a ZIP dataset and explore historical course information, including department, course code, course title, year, instructor, and class average. Our team also extended the application with additional features such as course difficulty indicators, data visualizations, instructor grade statistics, and building information to make course data easier to understand and compare.",
+        ja: "InsightUBC Explorerは、UBCの授業データを検索・分析できるフルスタックWebアプリケーションです。CPSC 310 (Introduction to Software Engineering) のチームプロジェクトとして開発しました。ZIP形式のデータセットをアップロードすると、学部、科目番号、科目名、年度、担当教員、クラス平均などの過去の授業情報を検索・絞り込みできます。バックエンドでは、データの取り込みや検証、検索処理を行うREST APIを実装しています。さらにチームでは、授業の難易度を把握しやすくする指標やグラフ表示、教員ごとの成績データ、建物情報などの機能も追加し、授業データをより分かりやすく比較・確認できるようにしました。",
       },
-      detail: {
-        en: "",
-        ja: "",
-      },
-
-      // No GitHub repository for this project
-      github: "",
-      privateRepo: false,
-
-      link: "https://www.figma.com/make/2fGFycdskjCHW5Q2wB24bu/Academic-Organiser-Demo?code-node-id=0-6&p=f&t=GlZJtC271HZ92oZU-0&fullscreen=1",
-      year: "2026",
-    },
+			type: "Academic Project",
+			tech: "React, TypeScript, Node.js, Express.js, Material UI, Recharts, Vite, Mocha, Chai, Supertest, JSZip, Multer, parse5",
+			image: "/projects/insight-ubc-explorer.png",
+			github: undefined,
+			privateRepo: true,
+			link: "https://cpsc310-project.vercel.app/",
+    }
   ];
 
   export const posts = [
@@ -281,7 +268,7 @@ export const ui = {
     back: "← 戻る",
     viewProject: "プロジェクトを見る",
     sourceCode: "ソースコード",
-    allProjects: "プロジェクト一覧",
+    allProjects: "プロジェクト",
     allBlogs: "全記事",
     loadMore: "もっと見る",
     noMore: "最後まで読みました",
