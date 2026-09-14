@@ -9,6 +9,20 @@ export const skills = [
 export const formId = "xlgqzvvd";
 
 export const projects = [
+        {
+					slug: "tomato-ripeness-classifier",
+					name: "Tomato Ripeness Classifier",
+					description: {
+					en: "A computer vision project that classifies tomatoes into three ripeness stages — green, turning, and ripe — using a convolutional neural network (CNN). I created a custom dataset by cropping individual tomatoes from images containing multiple fruits and trained the model on the processed dataset. The project is still in progress. Next, I plan to create a confusion matrix to evaluate the model, test it with my own tomato photos, and eventually build an Arduino-based prototype that automatically captures tomato images and notifies users when the tomatoes are ready for harvest or shipment.",
+					ja: "CNNを用いて、トマトの熟度を green・turning・ripe の3段階に分類するコンピュータビジョンプロジェクトです。複数のトマトが写っている画像から1個ずつ切り出して独自のデータセットを作成し、そのデータを使ってモデルを学習しました。現在も開発を進めており、今後は confusion matrix（混同行列）を用いたモデル評価や、自分で撮影したトマト写真でのテストを行う予定です。最終的にはArduinoを活用し、トマトの画像を自動で撮影して、収穫や出荷に適した時期を通知できるプロトタイプの開発を目指しています。",
+					},
+					type: " Personal Project",
+					tech: "Python, PyTorch, Computer Vision, Deep Learning",
+					image: "/projects/tomato-ripeness-classifier.png",
+					github: "https://github.com/mhiratsuka/tomato-ripeness-classifier",
+					privateRepo: false,
+					link: null,
+        } ,
 		{
 			slug: "student-academic-organizer",
 			name: "Student-Friendly Academic Organizer",

@@ -29,16 +29,16 @@ export default function ProjectList() {
             "
           >
             {/* Left: Project Image */}
-            <div className="overflow-hidden rounded-sm bg-card">
-              <img
-                src={project.image}
-                alt={project.name}
-                className="
-                  w-full
-                  aspect-[16/10]
-                  object-cover
-                "
-              />
+            <div className="overflow-hidden rounded-sm bg-card self-start">
+							<img
+								src={project.image}
+								alt={project.name}
+								className="
+								w-full
+								aspect-[16/10]
+								object-cover
+								"
+							/>
             </div>
 
             {/* Right: Project Information */}
