@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import { useLang } from "./LangContext";
 import { ui } from "./data";
 
-const NAV_LINKS = ["about", "projects","contact"] as const;
+const NAV_LINKS = ["about", "contact"] as const;
 
 export default function Layout() {
   const { lang, setLang } = useLang();

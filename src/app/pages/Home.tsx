@@ -30,7 +30,7 @@ export default function Home() {
         id="hero"
         className="min-h-[calc(100vh-3.5rem)] flex items-center"
       >
-        <div className="max-w-5xl mx-auto px-6 py-28 md:py-36">
+        <div className="max-w-7xl w-full mx-auto px-6 py-28 md:py-36">
           <p className="font-mono text-xs text-accent-foreground tracking-[0.25em] uppercase mb-6">
             {t.hero.greeting}
           </p>
@@ -57,9 +57,9 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id="about" className="py-24 border-t border-border">
-        <div className="max-w-5xl mx-auto px-6">
-          <SectionHeader num="01" title={t.about.title} />
+      <section id="about" className="py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionHeader title={t.about.title} />
 
           <div className="grid md:grid-cols-5 gap-12 md:gap-16 mt-14">
             <div className="md:col-span-3 space-y-5">
@@ -97,14 +97,14 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id="projects" className="border-t border-border">
+      <section id="projects">
         <ProjectList />
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-24 border-t border-border">
-        <div className="max-w-5xl mx-auto px-6">
-          <SectionHeader num="03" title={t.contactTitle} />
+      <section id="contact" className="py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionHeader title={t.contactTitle} />
 
           <div className="mt-14 grid md:grid-cols-2 gap-16">
             <div>
@@ -115,6 +115,8 @@ export default function Home() {
               <div className="flex gap-5">
                 <a
                   href={t.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 text-xs font-mono text-muted-foreground hover:text-foreground group transition-colors"
                 >
                   <Github
@@ -125,6 +127,8 @@ export default function Home() {
 
                 <a
                   href={t.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 text-xs font-mono text-muted-foreground hover:text-foreground group transition-colors"
                 >
                   <Linkedin
@@ -145,14 +149,8 @@ export default function Home() {
                 </p>
               </div>
             ) : (
-              <form
-                onSubmit={handleSubmit}
-                className="flex flex-col gap-5"
-              >
-                <Field
-                  label={t.form.name}
-                  htmlFor="contact-name"
-                >
+              <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+                <Field label={t.form.name} htmlFor="contact-name">
                   <input
                     id="contact-name"
                     type="text"
@@ -178,10 +176,7 @@ export default function Home() {
                   />
                 </Field>
 
-                <Field
-                  label={t.form.email}
-                  htmlFor="contact-email"
-                >
+                <Field label={t.form.email} htmlFor="contact-email">
                   <input
                     id="contact-email"
                     type="email"
@@ -207,10 +202,7 @@ export default function Home() {
                   />
                 </Field>
 
-                <Field
-                  label={t.form.message}
-                  htmlFor="contact-message"
-                >
+                <Field label={t.form.message} htmlFor="contact-message">
                   <textarea
                     id="contact-message"
                     name="message"
@@ -268,7 +260,6 @@ function SectionHeader({
   title,
   subtitle,
 }: {
-  num?: string;
   title: string;
   subtitle?: string;
 }) {
