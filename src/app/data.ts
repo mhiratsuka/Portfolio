@@ -17,7 +17,7 @@ export const projects = [
         ja: "Student-Friendly Academic Organizerは、UBCの学生が複数の授業にまたがる課題や締切、学習の進捗を無理なく整理・管理できるようにすることを目的としたプロトタイプです。CPSC 344 (Human-Computer Interaction)のチームプロジェクトとして、CanvasやGoogle Calendarなど複数のツールに分散している学習情報を、より分かりやすく把握できるようにすることを課題として取り組みました。チームでは、UBCの学生を対象にユーザー調査を行い、普段どのように課題や予定を管理しているのか、既存のツールにどのような使いにくさがあるのかを分析しました。その結果をもとに、タスクの優先順位付け、課題量の見える化、進捗管理などの機能を検討し、ユーザビリティ評価を行いながらFigma上でデザインを繰り返し改善しました。また、私はプロジェクトマネージャーとして、チームのスケジュール調整や進行管理も担当しました。",
       },
 			type: "Academic Project",
-			tech: "Figma, HCI, User-Centered Design, Project Manager",
+			tech: "Figma, User-Centered Design, User Research, Usability Testing, Prototyping",
 			image: "/projects/student-academic-organizer.png",
 			github: undefined,
 			privateRepo: false,

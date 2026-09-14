@@ -43,7 +43,7 @@ export default function Layout() {
           scrolled ? "border-border bg-background/90 backdrop-blur-md" : "border-transparent bg-background/80 backdrop-blur-sm"
         }`}
       >
-        <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
           <button
             onClick={() => navigate("/")}
             className="flex items-center gap-2.5 hover:opacity-70 transition-opacity"
